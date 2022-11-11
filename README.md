@@ -1,2 +1,3 @@
-# trybe-exercicios
-Repositório criado para armazenar os exercícios da Trybe
+# Meu repositório de exercícios
+
+## Repositório criado para armazenar os exercícios da Trybe

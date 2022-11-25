@@ -93,3 +93,17 @@ for (let values of numbers) {
   //values < menor ? menor = values : ""
 }
 console.log(`\nO menor valor do array é: ${menor}\n`)
+
+console.log(`Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;`)
+
+let array25 = []
+for (let i = 1; i <= 25; i += 1) {
+  array25.push(i)
+}
+console.log(array25)
+
+console.log(`\nUtilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.\n`)
+
+for (let values of array25) {
+  console.log(values / 2)
+}

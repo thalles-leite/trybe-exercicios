@@ -81,3 +81,15 @@ else {
   console.log(`Não há numeros ímpares no array`)
 }
 // contador > 0 ? console.log(`Há ${contador} número ímpares no array`) : console.log(`Não há numeros ímpares no array`)|
+
+console.log("\nUtilizando for, descubra qual o menor valor contido no array e imprima-o;\n")
+
+let menor = numbers[0];
+
+for (let values of numbers) {
+  if (values < menor) {
+    menor = values;
+  }
+  //values < menor ? menor = values : ""
+}
+console.log(`\nO menor valor do array é: ${menor}\n`)

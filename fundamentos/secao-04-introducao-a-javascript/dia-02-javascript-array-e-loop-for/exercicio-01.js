@@ -62,4 +62,22 @@ for (let values of numbers) {
   //values > maior ? maior = values : ""
 }
 
-console.log(`O maior valor do array é: ${maior}`)
+console.log(`\nO maior valor do array é: ${maior}\n`)
+
+console.log(`\nDescubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;\n`)
+
+let contador = 0;
+
+for (let values of numbers) {
+  if (values % 2 !== 0) {
+    contador += 1;
+  }
+  //values % 2 !== 0 ? contador += 1 : ""
+}
+if (contador > 0) {
+  console.log(`Há ${contador} número ímpares no array`)
+}
+else {
+  console.log(`Não há numeros ímpares no array`)
+}
+// contador > 0 ? console.log(`Há ${contador} número ímpares no array`) : console.log(`Não há numeros ímpares no array`)|

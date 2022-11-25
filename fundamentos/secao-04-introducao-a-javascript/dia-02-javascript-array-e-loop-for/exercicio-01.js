@@ -27,3 +27,13 @@ for (let i = 0; i < numbers.length; i += 1) {
   soma += numbers[i]
 }
 console.log(soma)
+
+console.log("\n3. Calcule e imprimaa média aritmética dos valores contidos no array.\n")
+
+let soma2 = 0;
+
+for (let values of numbers) {
+  soma2 += values;
+}
+
+console.log(`A média dos valores é: ${soma2 / numbers.length}`)

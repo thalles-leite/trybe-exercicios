@@ -36,4 +36,30 @@ for (let values of numbers) {
   soma2 += values;
 }
 
-console.log(`A média dos valores é: ${soma2 / numbers.length}`)
+console.log(`A média dos valores é: ${soma2 / numbers.length}\n`)
+
+console.log("\nCom base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”\n")
+
+let media = soma2 / numbers.length;
+
+if (media > 20) {
+  console.log("\nValor maior que 20.\n")
+}
+else {
+  console.log("\nValor menor que 20.\n")
+}
+
+//media > 20 ? console.log("\nValor maior que 20.\n") : console.log("\nValor menor que 20.\n");
+
+console.log("\nUtilizando for, descubra qual o maior valor contido no array e imprima-o;\n")
+
+let maior = 0;
+
+for (let values of numbers) {
+  if (values > maior) {
+    maior = values;
+  }
+  //values > maior ? maior = values : ""
+}
+
+console.log(`O maior valor do array é: ${maior}`)

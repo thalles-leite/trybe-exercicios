@@ -1,6 +1,5 @@
 # MÓDULO FUNDAMENTOS :rocket:
 
----
 
 ## Repositório destinado a armazenar exercícios do módulo de fundamentos.
 

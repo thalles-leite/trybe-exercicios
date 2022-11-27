@@ -42,7 +42,7 @@ for (let index = 1; index < array.length; index += 1) {
 
 Com base na leitura que fez, faça os exercícios:
 
-- [ ] Ordene o array numbers em ordem crescente e imprima seus valores;
+- [x] Ordene o array numbers em ordem crescente e imprima seus valores;
 
 ```javascript
     let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];

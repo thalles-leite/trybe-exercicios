@@ -1,6 +1,6 @@
 # Exercícios
 
-## Exercício principal
+## Exercícios principais
 
 - O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo:
 
@@ -30,3 +30,68 @@ Utilize a estrutura de repetição for para escrever dois algoritmos:
 - Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 por ele mesmo. Sabendo disso:
 
 - [x] escreva um algoritmo que imprima no console o maior número primo entre 2 e 50. 
+
+## Exercícios Bonus!
+
+- [ ] Escreva um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
+
+```
+n = 5
+
+*****
+*****
+*****
+*****
+*****
+```
+
+- [ ] Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+
+```
+n = 5
+
+*
+**
+***
+****
+*****
+```
+- [ ] Agora inverta o lado do triângulo. Por exemplo:
+
+```
+n = 5
+
+    *
+   **
+  ***
+ ****
+*****
+
+```
+
+- [ ] Depois, faça uma pirâmide com n asteriscos de base:
+
+```
+n = 5
+
+  *
+ ***
+*****
+```
+
+- [ ] Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar:
+
+
+
+```
+n = 7
+
+   *
+  * *
+ *   *
+*******
+```
+
+- [ ] Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
+
+- [ ] Faça um programa que diz se um número definido numa variável é primo ou não.

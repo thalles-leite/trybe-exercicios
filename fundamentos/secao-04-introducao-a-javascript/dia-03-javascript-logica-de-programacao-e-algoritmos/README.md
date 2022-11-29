@@ -25,7 +25,7 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 Utilize a estrutura de repetição for para escrever dois algoritmos: 
 
 - [x] um que imprima no console a maior palavra desse array;
-- [ ] e outro que imprima a menor. Considere o número de caracteres de cada palavra.
+- [x] e outro que imprima a menor. Considere o número de caracteres de cada palavra.
 
 - Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 por ele mesmo. Sabendo disso:
 

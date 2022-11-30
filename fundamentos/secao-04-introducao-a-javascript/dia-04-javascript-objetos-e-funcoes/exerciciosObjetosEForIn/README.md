@@ -10,13 +10,13 @@ let info = {
 };
 ```
 
-- [ ] Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome. Use a sintaxe  <span style="color: red;">meuObjeto.chave</span>. Valor esperado no console:
+- [x] Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome. Use a sintaxe  <span style="color: red;">meuObjeto.chave</span>. Valor esperado no console:
 
 ```javascript
 Bem-vinda, Margarida
 ```
 
-- [ ] Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e, em seguida, imprima o objeto no console. Use a sintaxe  <span style="color: red;">meuObjeto['chave']=valor</span>. Valor esperado no console:
+- [x] Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o valor 'Sim' e, em seguida, imprima o objeto no console. Use a sintaxe  <span style="color: red;">meuObjeto['chave']=valor</span>. Valor esperado no console:
 
 ```javascript
 {
@@ -27,7 +27,7 @@ Bem-vinda, Margarida
 }
 ```
 
-- [ ] Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
+- [x] Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
 
 ```javascript
 personagem

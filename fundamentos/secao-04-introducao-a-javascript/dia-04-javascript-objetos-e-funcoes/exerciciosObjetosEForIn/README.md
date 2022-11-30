@@ -10,7 +10,7 @@ let info = {
 };
 ```
 
-- [ ]Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome. Use a sintaxe  <span style="color: red;">meuObjeto.chave</span>. Valor esperado no console:
+- [ ] Imprima no console uma mensagem de boas-vindas para a personagem acima, incluindo seu nome. Use a sintaxe  <span style="color: red;">meuObjeto.chave</span>. Valor esperado no console:
 
 ```javascript
 Bem-vinda, Margarida

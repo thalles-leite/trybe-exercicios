@@ -69,7 +69,7 @@ n = 5
 
 ```
 
-- [*] Depois, faça uma pirâmide com n asteriscos de base:
+- [x] Depois, faça uma pirâmide com n asteriscos de base:
 
 ```
 n = 5

@@ -92,6 +92,4 @@ n = 7
 *******
 ```
 
-- [ ] Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
-
-- [ ] Faça um programa que diz se um número definido numa variável é primo ou não.
+- [x] Faça um programa que diz se um número definido numa variável é primo ou não.

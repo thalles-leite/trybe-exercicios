@@ -45,7 +45,7 @@ Namorada do personagem principal nos quadrinhos do Pato Donald
 Sim
 ```
 
-- [ ] Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O Último MacPatinhas','Sim'. Então, imprima os valores de cada objeto juntos, de acordo com cada uma das chaves. Valor esperado no console:
+- [x] Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 'O Último MacPatinhas','Sim'. Então, imprima os valores de cada objeto juntos, de acordo com cada uma das chaves. Valor esperado no console:
 
 ```javascript
 Margarida e Tio Patinhas
@@ -75,9 +75,9 @@ let leitor = {
 
 ```
 
-- [ ] Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
+- [x] Acesse as chaves nome, sobrenome e titulo, que está dentro da chave livrosFavoritos, e faça um console.log no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Pior Dia de Todos’”.
 
-- [ ] Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações:
+- [x] Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações:
 
 ```javascript
 {

@@ -1,4 +1,4 @@
-console.log("\n  Faça um for/in que mostre todas as chaves do objeto. \n")
+console.log("\n  Faça um for/in que mostre todos os valores do objeto. \n")
 
 let info = {
     personagem: 'Margarida',

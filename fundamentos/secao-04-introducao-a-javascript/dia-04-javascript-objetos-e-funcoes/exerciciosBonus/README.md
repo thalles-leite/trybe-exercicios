@@ -72,7 +72,7 @@ const basket = [
 ];
 ```
 
-- [ ] :rocket: Exercício 4
+- [x] :rocket: Exercício 4
 
 Usando o objeto abaixo, faça o que for pedido a seguir:
 

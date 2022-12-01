@@ -44,7 +44,7 @@ Através de um loop for, percorra essa variável, busque os números pares e os 
 let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
 ```
 
-- [ ] :rocket: Exercício 3
+- [x] :rocket: Exercício 3
 
 A partir do array de frutas basket, retorne um objeto que contenha o nome da fruta como chave e a quantidade de vezes que ela aparece no array como valor. Por exemplo, o array [‘Melancia’, ‘Abacate’, ‘Melancia’, ‘Melancia’, ‘Uva’], deverá retornar { Melancia: 3, Abacate: 1, Uva: 1 } quando passado como argumento para a função.
 

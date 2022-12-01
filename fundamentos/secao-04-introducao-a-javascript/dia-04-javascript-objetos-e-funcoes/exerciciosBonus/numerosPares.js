@@ -11,7 +11,7 @@ function arrayOfNumbers(vector) {
             if (value % 2 === 0) numerosPares.push(value);
         }
     }
-    return numerosPares
+    return numerosPares;
 }
 
 console.log(arrayOfNumbers(vector));

@@ -14,7 +14,7 @@ Array de teste: [2, 4, 6, 7, 10, 0, -3];.
 Valor esperado no retorno da função: 6.
 ```
 
-- [ ] Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+- [x] Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 
 ```
 Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.

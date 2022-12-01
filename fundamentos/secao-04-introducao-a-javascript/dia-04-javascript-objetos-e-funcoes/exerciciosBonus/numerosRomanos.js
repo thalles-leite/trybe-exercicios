@@ -3,8 +3,6 @@ function convertNumRomanos(numAConv) {
     let splitNum = numAConv.toUpperCase().split("");
     let numConv = 0;
 
-    let M, D, C, L, X, V, I;
-
     let tabelaRomanos = {
         I: 1,
         V: 5,

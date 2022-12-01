@@ -34,7 +34,7 @@ O valor de cada numeral romano é:
 - Atenção! Quando você tem um número pequeno à direita de um número grande, eles devem ser somados. Exemplo: XI = 10 + 1 = 11. No entanto, se o número pequeno está à esquerda de um número maior que ele, ele deve ser subtraído. Exemplo: IX = 10 - 1 = 9.
   
 .
-- [ ] Exercício 2
+- [x] Exercício 2
 
 Crie uma função chamada arrayOfNumbers que receberá a variável vector como parâmetro.
 

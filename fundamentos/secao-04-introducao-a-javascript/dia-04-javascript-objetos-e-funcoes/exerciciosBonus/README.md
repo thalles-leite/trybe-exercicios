@@ -1,7 +1,7 @@
 # Exercício Bonus
 
 
-- [ ] Exercício 1
+- [x] Exercício 1
 
 (Bônus) Faça um programa que receba uma string em algarismos romanos e retorne o número que a string representa.
 

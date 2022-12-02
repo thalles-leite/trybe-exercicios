@@ -20,13 +20,13 @@ Crie uma função que ligue e desligue um motor de um carro.
 
     Com base nessa informação:
 
-- [ ] Crie a função circleArea, que recebe o valor do raio como parâmetro, utilizando arrow functions;
+- [x] Crie a função circleArea, que recebe o valor do raio como parâmetro, utilizando arrow functions;
 
-- [ ] Crie uma variável para armazenar o valor de PI (lembre-se de armazenar o tipo de variável da forma correta);
+- [x] Crie uma variável para armazenar o valor de PI (lembre-se de armazenar o tipo de variável da forma correta);
 
-- [ ] Crie a lógica para retornar a área do círculo;
+- [x] Crie a lógica para retornar a área do círculo;
 
-- [ ] Imprima no terminal “Essa é a área do círculo: resultado da função“ (lembre-se de utilizar o template literals nesse momento).
+- [x] Imprima no terminal “Essa é a área do círculo: resultado da função“ (lembre-se de utilizar o template literals nesse momento).
 ```
     Exemplo de retorno:
 
@@ -45,4 +45,4 @@ Exemplo:
 ```javascript
   longestWord('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
 ```
-- [ ] Bônus (opcional): Tente fazer o mesmo exercício utilizando o método array.sort()
+- [x] Bônus (opcional): Tente fazer o mesmo exercício utilizando o método array.sort()

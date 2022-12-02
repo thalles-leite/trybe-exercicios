@@ -4,7 +4,7 @@
 
     Não se esqueça de usar template literals
 ###
-- [ ] Função 1: Escreva uma função que substitua a letra ‘x’ em uma frase.<br><br>
+- [x] Função 1: Escreva uma função que substitua a letra ‘x’ em uma frase.<br><br>
 
   - O nome da função deverá ser substituaX;<br><br>
 
@@ -21,7 +21,7 @@ Retorno: ‘Tryber Bebeto aqui!’
 Spoiler: O método split() pode ser utilizado de diferentes maneiras, como para separar as palavras de um texto.
 ```
 
-[ ] - Função 2: Escreva uma função que irá receber o retorno da Função 1 por parâmetro e retornará uma nova string.
+[x] - Função 2: Escreva uma função que irá receber o retorno da Função 1 por parâmetro e retornará uma nova string.
 - O nome da função deverá ser minhasSkills;
 - A função deverá receber o retorno da Função 1 - substituaX por parâmetro
 

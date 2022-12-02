@@ -43,7 +43,7 @@ Copie o código abaixo e rode-o para verificar sua saída:
   console.log(favoriteFood);
 ```
 
-- [ ] 🚀 Modifique as concatenações para template literals.
+- [x] 🚀 Modifique as concatenações para template literals.
 
 Copie o código abaixo:
 
@@ -60,9 +60,9 @@ Copie o código abaixo:
   console.log('O resultado da soma de ' + a + ' + ' + b + ' é: ' + soma(a,b));
 ```
 
-- [ ] 🚀 Modifique a estrutura das funções a seguir para que elas sejam arrow functions;
+- [x] 🚀 Modifique a estrutura das funções a seguir para que elas sejam arrow functions;
 
-- [ ] 🚀 Transforme a função numeroAleatorio em uma arrow function;
+- [x] 🚀 Transforme a função numeroAleatorio em uma arrow function;
 Copie o código abaixo:
 
 ```javascript
@@ -72,7 +72,7 @@ Copie o código abaixo:
   console.log(numeroAleatorio());
 ```
 
-- [ ] 🚀 Transforme a função hello em uma arrow function;
+- [x] 🚀 Transforme a função hello em uma arrow function;
 Copie o código abaixo:
 
 ```javascript
@@ -82,7 +82,7 @@ Copie o código abaixo:
   let nome = 'Ivan';
   console.log(hello(nome));
 ```
-- [ ] 🚀 Transforme a função nomeCompleto em uma arrow function;
+- [x] 🚀 Transforme a função nomeCompleto em uma arrow function;
 Copie o código abaixo:
 
 ```javascript
@@ -94,7 +94,7 @@ Copie o código abaixo:
   console.log(nomeCompleto(nome, sobrenome));
 ```
 
-- [ ] 🚀 Altere a expressão if/else utilizando ternary operator;
+- [x] 🚀 Altere a expressão if/else utilizando ternary operator;
 
 Copie o código abaixo:
 

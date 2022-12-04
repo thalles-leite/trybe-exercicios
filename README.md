@@ -6,5 +6,8 @@ O curso da [Trybe](https://www.betrybe.com/)  conta com mais de 1.500 horas de a
 
 ## Fundamentos do Desenvolvimento Web 
 
-##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
-##### Bloco 2: Git & GitHub :white_check_mark:
+##### Bloco 1: Introdução - Unix & Shell. :white_check_mark:
+##### Bloco 2: Git & GitHub. :white_check_mark:
+##### Bloco 3: Introdução à HTML & CSS. :white_check_mark:
+##### Bloco 4: Introdução à JavaScript :white_check_mark:
+##### Bloco 5: DOM, Eventos e Web Storage :zap:

@@ -47,13 +47,20 @@
       const secondChangeColor = () => document.getElementsByClassName('center-content')[0].style.backgroundColor ="white";
       const correctText = () => document.getElementsByTagName('h1')[0].innerText = "Desafio - JavaScript"
       const ftoUpperCase = () => document.getElementsByTagName('p')[0].innerText = document.getElementsByTagName('p')[0].innerText.toUpperCase();
+      const exibeConteudoP = () => {
+        const elementos = document.getElementsByTagName('p')
+        for (let values of elementos){
+          console.log(values.innerText)
+        }
+        
+      }
 
       changeText();
       firstChangeColor();
       secondChangeColor();
       correctText();
       ftoUpperCase();
-
+      exibeConteudoP();
     </script>
   </body>
 </html>

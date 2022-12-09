@@ -57,11 +57,66 @@
   </head>
   <body>
     <script>
+      
       const tagBody = document.querySelector('body')
+      
+      const newH1 = document.createElement('h1');
+      newH1.innerHTML = 'TrybeTrip - Agência de Viagens.'
+      tagBody.appendChild(newH1);
+
+      const newMain = document.createElement('main');
+      newMain.className = 'main-content';
+      tagBody.appendChild(newMain);
+
+      const tagMain = document.querySelector('.main-content');
+      
+      const newSection = document.createElement('section');
+      newSection.className = 'center-content';
+      tagMain.appendChild(newSection)
+
+      const tagSection = document.querySelector('.center-content');
+
+      const newP = document.createElement('p');
+      newP.innerText = 'Olá, esse é um texto dentro e um parágrafo.'
+      tagSection.appendChild(newP)
+
+      const leftSection = document.createElement('section');
+      leftSection.className = 'left-content'
+      tagMain.appendChild(leftSection)
+
+      const rightSection = document.createElement('section');
+      rightSection.className = 'right-content'
+      tagMain.appendChild(rightSection)
+
+      const newImg = document.createElement('img');
+      newImg.src = 'https://picsum.photos/200';
+      newImg.className = 'small-image';
+      leftSection.appendChild(newImg);
+
+      const newUlList = document.createElement('ul');
+      rightSection.appendChild(newUlList);
+
+      const newLiList = document.createElement('li');
+      newLiList.innerHTML = `<li> um </li>
+      <li> dois </li>
+      <li> tres </li>
+      <li> quatro </li>
+      <li> cinco </li>
+      <li> seis </li>
+      <li> sete </li>
+      <li> oito </li>
+      <li> nove </li>
+      <li> dez </li>`
+      rightSection.children[0].appendChild(newLiList)
+
+      for (let i=0; i<3;i+=1){
+        let newH3 = document.createElement('h3');
+        newMain.appendChild(newH3);
+      }
+
       console.log(tagBody)
-      const tagH1 = document.createElement('h1');
-      tagH1.innerHTML = 'TrybeTrip - Agência de Viagens.'
-      tagBody.appendChild(tagH1)
+    
+
     </script>
   </body>
 </html>

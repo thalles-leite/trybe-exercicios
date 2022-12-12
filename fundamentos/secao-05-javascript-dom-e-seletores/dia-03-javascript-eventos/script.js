@@ -19,7 +19,6 @@ const decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
 const criandoDiasDoMes = () => {
   const ulDays = document.getElementById('days');
   for (let dias of decemberDaysList) {
-    console.log(dias)
     const elementoLi = document.createElement('li');
     elementoLi.innerText = dias;
     elementoLi.className = 'day';
@@ -34,3 +33,16 @@ const criandoDiasDoMes = () => {
   }
 }
 criandoDiasDoMes();
+
+// PARTE 2
+
+const criandoBotao = (feriados) => {
+  const divButtons = document.querySelector('.buttons-container')
+  const botaoFeriados = document.createElement('button');
+  botaoFeriados.id = 'btn-holiday';
+  botaoFeriados.innerText = feriados;
+  console.log(botaoFeriados);
+  divButtons.appendChild(botaoFeriados);
+}
+
+criandoBotao('Feriados')

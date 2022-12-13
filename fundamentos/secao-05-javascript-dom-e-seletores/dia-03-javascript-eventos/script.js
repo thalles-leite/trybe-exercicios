@@ -150,7 +150,6 @@ adicionarLegenda('green');
 
 const selecionaLegenda = () => {
   const tarefas = document.getElementsByClassName('task');
-  console.log('clicou')
   for (let tarefa of tarefas) {
     tarefa.addEventListener('click', (event) => {
       if (!event.target.classList.contains('selected')) {
@@ -178,10 +177,8 @@ const atribuirCor = () => {
       dia.addEventListener('click', (event) => {
         if (event.target.style.color === elementoSelecionado.style.backgroundColor) {
           event.target.style.color = 'rgb(119,119,119)'
-          console.log('if')
         } else {
           event.target.style.color = elementoSelecionado.style.backgroundColor;
-          console.log('else')
         }
       })
     }
@@ -190,4 +187,29 @@ const atribuirCor = () => {
 
 atribuirCor();
 
-// Parte 11
+// BONUS
+
+const adicionarCompromisso = () => {
+  const compromisso = document.getElementById('task-input');
+  const btnAdd = document.getElementById('btn-add');
+  const compromissos = document.querySelector('.task-list');
+  const novoComp = () => {
+    if (compromisso.value) {
+      const novoCompromisso = document.createElement('li');
+      novoCompromisso.innerText = compromisso.value;
+      compromissos.appendChild(novoCompromisso);
+      compromisso.value = '';
+    }
+    else {
+      alert('erro ao clicar em adicionar.')
+    }
+  }
+
+  btnAdd.addEventListener('click', novoComp);
+  compromisso.addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+      novoComp();
+    }
+  })
+}
+adicionarCompromisso();

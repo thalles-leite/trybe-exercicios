@@ -21,12 +21,12 @@ const criandoDiasDoMes = () => {
   for (let dias of decemberDaysList) {
     const elementoLi = document.createElement('li');
     elementoLi.innerText = dias;
-    elementoLi.className = 'day';
+    elementoLi.classList.add('day');
     if (dias === 24 || dias === 25 || dias === 31) {
-      elementoLi.className = 'day holiday';
+      elementoLi.classList.add('holiday');
     }
     if (dias === 4 || dias === 11 || dias === 18 || dias === 25) {
-      elementoLi.className = 'day friday';
+      elementoLi.classList.add('friday');
     }
 
     ulDays.appendChild(elementoLi)
@@ -46,3 +46,23 @@ const criandoBotao = (feriados) => {
 }
 
 criandoBotao('Feriados')
+
+// PARTE 3
+
+const diasFeriado = () => {
+  const diasDeFeriados = document.querySelectorAll('.holiday');
+
+  for (let dia of diasDeFeriados) {
+    console.log(dia.classList.contains('feriado'))
+    if (dia.classList.contains('feriado')) {
+      dia.classList.remove('feriado');
+    }
+    else {
+      dia.classList.add('feriado');
+    }
+
+  }
+}
+
+const btnFeriados = document.getElementById('btn-holiday');
+btnFeriados.addEventListener('click', diasFeriado)

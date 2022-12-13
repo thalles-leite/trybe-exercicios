@@ -153,4 +153,7 @@
     margin: 0px;
     padding: 10px 0;
   }
-  
+  .feriado{
+    background-color: rgb(11, 247, 215);
+    color: white;
+  }

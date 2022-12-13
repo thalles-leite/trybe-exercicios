@@ -145,3 +145,24 @@ const adicionarLegenda = (cor) => {
 }
 
 adicionarLegenda('red');
+
+// Parte 9
+
+const selecionaLegenda = () => {
+  const tarefas = document.getElementsByClassName('task');
+  console.log('clicou')
+  for (let tarefa of tarefas) {
+    tarefa.addEventListener('click', (event) => {
+      if (!event.target.classList.contains('selected')) {
+        tarefa.classList.add('selected');
+      }
+      else {
+        tarefa.classList.remove('selected');
+      }
+    })
+  }
+}
+
+selecionaLegenda();
+
+// Parte 10

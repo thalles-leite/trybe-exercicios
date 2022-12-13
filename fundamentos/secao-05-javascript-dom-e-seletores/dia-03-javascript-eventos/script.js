@@ -115,7 +115,7 @@ const zoomDay = () => {
     dia.addEventListener('mouseout', (event) => {
       event.target.style.border = '2px solid transparent'
       event.target.style.fontSize = 20 + 'px';
-      event.target.style.color = '#777'
+
     })
   }
 }
@@ -144,7 +144,7 @@ const adicionarLegenda = (cor) => {
 
 }
 
-adicionarLegenda('red');
+adicionarLegenda('green');
 
 // Parte 9
 
@@ -155,6 +155,7 @@ const selecionaLegenda = () => {
     tarefa.addEventListener('click', (event) => {
       if (!event.target.classList.contains('selected')) {
         tarefa.classList.add('selected');
+        atribuirCor();
       }
       else {
         tarefa.classList.remove('selected');
@@ -166,3 +167,27 @@ const selecionaLegenda = () => {
 selecionaLegenda();
 
 // Parte 10
+
+const dias = document.getElementsByClassName('day');
+const atribuirCor = () => {
+  const elementoSelecionado = document.getElementsByClassName('selected')[0];
+
+  if (elementoSelecionado) {
+    console.log(elementoSelecionado.style.backgroundColor);
+    for (let dia of dias) {
+      dia.addEventListener('click', (event) => {
+        if (event.target.style.color === elementoSelecionado.style.backgroundColor) {
+          event.target.style.color = 'rgb(119,119,119)'
+          console.log('if')
+        } else {
+          event.target.style.color = elementoSelecionado.style.backgroundColor;
+          console.log('else')
+        }
+      })
+    }
+  }
+}
+
+atribuirCor();
+
+// Parte 11

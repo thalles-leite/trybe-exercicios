@@ -132,3 +132,16 @@ const adicionarTarefa = (tarefa) => {
 }
 
 adicionarTarefa('Cozinhar.')
+
+// Parte 8
+
+const adicionarLegenda = (cor) => {
+  const divTask = document.querySelector('.my-tasks');
+  const divLegenda = document.createElement('div');
+  divLegenda.classList.add('task');
+  divLegenda.style.backgroundColor = cor;
+  divTask.appendChild(divLegenda);
+
+}
+
+adicionarLegenda('red');

@@ -1,3 +1,5 @@
+
+
 const createDaysOfTheWeek = () => {
   const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
   const weekDaysList = document.querySelector('.week-days');
@@ -14,7 +16,7 @@ const createDaysOfTheWeek = () => {
 createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
-
+const indexSexta = [];
 const decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 const criandoDiasDoMes = () => {
   const ulDays = document.getElementById('days');
@@ -27,6 +29,7 @@ const criandoDiasDoMes = () => {
     }
     if (dias === 4 || dias === 11 || dias === 18 || dias === 25) {
       elementoLi.classList.add('friday');
+      indexSexta.push(dias)
     }
 
     ulDays.appendChild(elementoLi)
@@ -67,11 +70,65 @@ btnFeriados.addEventListener('click', diasFeriado)
 
 // Parte 4 
 
-const botaoSexta = (arg) => {
+const fbotaoSexta = (arg) => {
   const botoesContainer = document.querySelector('.buttons-container');
   const botaoSexta = document.createElement('button');
   botaoSexta.innerText = arg;
   botaoSexta.id = 'btn-friday';
   botoesContainer.appendChild(botaoSexta);
 }
-botaoSexta('Sexta-feira');
+fbotaoSexta('Sexta-feira');
+
+// Parte 5 
+const sextas = document.getElementsByClassName('friday');
+const textoSexta = 'Sextou';
+const modificaSexta = () => {
+  for (let dias in sextas) {
+    if (sextas[dias].innerText !== textoSexta) {
+      sextas[dias].innerText = textoSexta;
+    }
+    else {
+      sextas[dias].innerText = indexSexta[dias]
+    }
+
+  }
+}
+
+const botaoSexta = document.getElementById('btn-friday');
+botaoSexta.addEventListener('click', modificaSexta)
+
+// Parte 6
+
+const zoomDay = () => {
+  const textoDias = document.getElementsByClassName('day');
+
+  for (let dia of textoDias) {
+
+    dia.addEventListener('mouseover', (event) => {
+      // event.target.style.fontSize = 25 + 'px';
+      event.target.style.border = '2px solid red';
+      event.target.style.borderRadius = '500px';
+      event.target.style.cursor = 'pointer'
+
+
+    })
+    dia.addEventListener('mouseout', (event) => {
+      event.target.style.border = '2px solid transparent'
+      event.target.style.fontSize = 20 + 'px';
+      event.target.style.color = '#777'
+    })
+  }
+}
+
+zoomDay();
+
+// Parte 7
+
+const adicionarTarefa = (tarefa) => {
+  const listaTarefas = document.querySelector('.my-tasks');
+  const Starefa = document.createElement('span');
+  Starefa.innerText = tarefa;
+  listaTarefas.appendChild(Starefa);
+}
+
+adicionarTarefa('Cozinhar.')

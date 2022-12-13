@@ -41,7 +41,6 @@ const criandoBotao = (feriados) => {
   const botaoFeriados = document.createElement('button');
   botaoFeriados.id = 'btn-holiday';
   botaoFeriados.innerText = feriados;
-  console.log(botaoFeriados);
   divButtons.appendChild(botaoFeriados);
 }
 
@@ -53,7 +52,6 @@ const diasFeriado = () => {
   const diasDeFeriados = document.querySelectorAll('.holiday');
 
   for (let dia of diasDeFeriados) {
-    console.log(dia.classList.contains('feriado'))
     if (dia.classList.contains('feriado')) {
       dia.classList.remove('feriado');
     }
@@ -66,3 +64,14 @@ const diasFeriado = () => {
 
 const btnFeriados = document.getElementById('btn-holiday');
 btnFeriados.addEventListener('click', diasFeriado)
+
+// Parte 4 
+
+const botaoSexta = (arg) => {
+  const botoesContainer = document.querySelector('.buttons-container');
+  const botaoSexta = document.createElement('button');
+  botaoSexta.innerText = arg;
+  botaoSexta.id = 'btn-friday';
+  botoesContainer.appendChild(botaoSexta);
+}
+botaoSexta('Sexta-feira');

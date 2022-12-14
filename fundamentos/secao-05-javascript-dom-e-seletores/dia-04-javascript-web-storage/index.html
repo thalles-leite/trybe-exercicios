@@ -12,50 +12,51 @@
 
 <body>
     <header class="header">
-        <h1>Página configurável</h1>
+        <h1>Página Dinâmica</h1>
     </header>
-    <main class="main">
-        <nav class="configuracao">
-            <div class="conf mudarCorFundo">
-                Cor de fundo:
-                <button id="btnCorFundoBranco" class="white" value="white"></button>
-                <button id="btnCorFundoPreto" class="black" value="black"></button>
-                <button id="btnCorFundoVerde" class="green" value="green"></button>
-                <button id="btnCorFundoAzul" class="blue" value="blue"></button>
-                <button id="btnCorFundoAmarelo" class="yellow" value="yellow"></button>
-            </div>
-            <div class="conf mudarCorFonte">
-                Cor da fonte:
-                <button class="black" value="black"></button>
-                <button class="red" value="red"></button>
-                <button class="white" value="white"></button>
-            </div>
+    <nav class="configuracao">
+        <div class="conf mudarCorFundo">
+            <section>Cor de Fundo</section>
+            <button id="btnCorFundoBranco" class="white" value="white"></button>
+            <button id="btnCorFundoPreto" class="black" value="black"></button>
+            <button id="btnCorFundoVerde" class="green" value="green"></button>
+            <button id="btnCorFundoAzul" class="blue" value="blue"></button>
+            <button id="btnCorFundoAmarelo" class="yellow" value="yellow"></button>
+        </div>
+        <div class="conf mudarCorFonte">
+            <section>Cor da fonte</section>
+            <button class="black" value="black"></button>
+            <button class="red" value="red"></button>
+            <button class="white" value="white"></button>
+        </div>
 
-            <div class="conf mudarTamanhoFonte">
-                Tamanho da fonte:
-                <button class="btnNorm" value="8pt">8pt</button>
-                <button class="btnNorm" value="10pt">10pt</button>
-                <button class="btnNorm" value="12pt">12pt</button>
-                <button class="btnNorm" value="14pt">14pt</button>
-                <button class="btnNorm" value="20pt">20pt</button>
-            </div>
-            <div class="conf mudarEspacamentoEntreLinhas">
-                Espaçamento entre linhas:
-                <button class="btnNorm" value="1">1</button>
-                <button class="btnText" value="normal">Normal</button>
-                <button class=" btnNorm" value="1.5">1.5</button>
-                <button class="btnNorm" value="2.0">2.0</button>
-                <button class="btnNorm" value="3.0">3.0</button>
-            </div>
-            <div class="conf mudarTipoFonte">
-                Tipo da fonte:
-                <button class="btnText" value="Arial">Arial</button>
-                <button class="btnText" value="Times New Roman">Times New Roman</button>
-            </div>
-            <div class="conf">
-                <button class="btnText resetar">Reset</button>
-            </div>
-        </nav>
+        <div class="conf mudarTamanhoFonte">
+            <section>Tamanho da fonte</section>
+            <button class="btnNorm" value="8pt">8pt</button>
+            <button class="btnNorm" value="10pt">10pt</button>
+            <button class="btnNorm" value="12pt">12pt</button>
+            <button class="btnNorm" value="14pt">14pt</button>
+            <button class="btnNorm" value="20pt">20pt</button>
+        </div>
+        <div class="conf mudarEspacamentoEntreLinhas">
+            <section> Espaçamento entre linhas</section>
+            <button class="btnNorm" value="1">1</button>
+            <button class="btnText" value="normal">Normal</button>
+            <button class=" btnNorm" value="1.5">1.5</button>
+            <button class="btnNorm" value="2.0">2.0</button>
+            <button class="btnNorm" value="3.0">3.0</button>
+        </div>
+        <div class="conf mudarTipoFonte">
+            <section>Tipo da fonte:</section>
+            <button class="btnText" value="Arial">Arial</button>
+            <button class="btnText" value="Times New Roman">Times New Roman</button>
+        </div>
+        <div class="conf">
+            <!-- <section>Reset</section> -->
+            <button class="btnText resetar"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></i></button>
+        </div>
+    </nav>
+    <main class="main">
         <section class="texto">
             <h1>Lorem ipsum dolor sit amet.</h1>
             <p>

@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
 
 
 // propriedades
-const fundoDaTela = document.querySelector('.main');
+const fundoDaTela = document.querySelector('body');
 const texto = document.querySelector('.texto');
 const textop = document.querySelectorAll('.texto *');
 

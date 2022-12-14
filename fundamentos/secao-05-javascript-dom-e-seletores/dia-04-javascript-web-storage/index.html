@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -30,26 +31,29 @@
                 <button class="white" value="white"></button>
             </div>
 
-            <div class="conf">
+            <div class="conf mudarTamanhoFonte">
                 Tamanho da fonte:
-                <button class="btnNorm">8pt</button>
-                <button class="btnNorm">10pt</button>
-                <button class="btnNorm">12pt</button>
-                <button class="btnNorm">14pt</button>
-                <button class="btnNorm">20pt</button>
+                <button class="btnNorm" value="8pt">8pt</button>
+                <button class="btnNorm" value="10pt">10pt</button>
+                <button class="btnNorm" value="12pt">12pt</button>
+                <button class="btnNorm" value="14pt">14pt</button>
+                <button class="btnNorm" value="20pt">20pt</button>
             </div>
-            <div class="conf">
+            <div class="conf mudarEspacamentoEntreLinhas">
                 Espaçamento entre linhas:
-                <button class="btnNorm">1</button>
-                <button class="btnText">Normal</button>
-                <button class=" btnNorm">1.5</button>
-                <button class="btnNorm">2.0</button>
-                <button class="btnNorm">3.0</button>
+                <button class="btnNorm" value="1">1</button>
+                <button class="btnText" value="normal">Normal</button>
+                <button class=" btnNorm" value="1.5">1.5</button>
+                <button class="btnNorm" value="2.0">2.0</button>
+                <button class="btnNorm" value="3.0">3.0</button>
+            </div>
+            <div class="conf mudarTipoFonte">
+                Tipo da fonte:
+                <button class="btnText" value="Arial">Arial</button>
+                <button class="btnText" value="Times New Roman">Times New Roman</button>
             </div>
             <div class="conf">
-                Tipo da fonte:
-                <button class="btnText">Arial</button>
-                <button class="btnText">Times New Roman</button>
+                <button class="btnText resetar">Reset</button>
             </div>
         </nav>
         <section class="texto">
@@ -86,6 +90,14 @@
         </section>
 
     </main>
+    <footer class="footer">
+        Desenvolvido por <a href="https://www.linkedin.com/in/thallesleite/" target="_blank"
+            rel="noopener noreferrer">Thalles Leite.</a>
+        <a href="https://www.linkedin.com/in/thallesleite/" target="_blank" rel="noopener noreferrer"> ▏ <i
+                class="fa fa-linkedin fa"></i></a>
+        <a href="https://github.com/thalles-leite" target="_blank" rel="noopener noreferrer"> ▏<i
+                class="fa fa-github fa"></i></a>
+    </footer>
 
     <script src="script.js"></script>
 </body>

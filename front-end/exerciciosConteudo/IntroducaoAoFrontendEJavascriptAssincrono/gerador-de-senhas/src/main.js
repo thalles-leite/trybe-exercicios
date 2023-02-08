@@ -1,7 +1,10 @@
-import {nanoid} from 'nanoid'
+import { nanoid } from 'nanoid';
+
+import './style.css';
 
 const botao = document.querySelector('button');
 const h2 = document.querySelector('h2');
-botao.addEventListener('click',() => {
-  h2.innerText = nanoid();
-})
+botao.addEventListener('click', () => {
+  const randomPass = nanoid();
+  h2.innerText = randomPass;
+});

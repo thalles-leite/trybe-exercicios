@@ -4,7 +4,8 @@
   "description": "Melhor gerador de senhas de todos os tempos.",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC",

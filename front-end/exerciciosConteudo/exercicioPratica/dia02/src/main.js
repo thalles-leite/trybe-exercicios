@@ -8,7 +8,7 @@ const heroName = document.querySelector('.heroName');
 
 const API_URL = 'https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api';
 
-const MAX_HEROS = 1000;
+const MAX_HEROS = 500;
 
 const dateUpdate = (hName, md) => {
   imgHeroContainer.innerHTML = '';

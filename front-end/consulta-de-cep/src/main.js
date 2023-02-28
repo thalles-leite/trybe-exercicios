@@ -5,15 +5,14 @@ import Swal from 'sweetalert2';
 
 import '@sweetalert2/theme-dark/dark.min.css';
 
-buttonEl.addEventListener('click',async () => {
+export default getAddressFromCep = async () => {
   const inputCep = inputEl.value;
   try {
     const response = await fetch(`https://viacep.com.br/ws/${inputCep}/json/`)
     const data = await response.json();
 
-    if (data.erro){
-      throw new Error("CEP não encontrado no banco de dados.")
-    }
+    if (data.erro) throw new Error("CEP não encontrado no banco de dados.")
+    
     const {cep,logradouro,bairro,localidade,uf} = data
     preEl.innerHTML = 
 `<p class='cep'>CEP: ${cep}</p>
@@ -30,4 +29,8 @@ Bairro:
       confirmButtonText: 'Ok'
     })
   }
-});
+}
+
+buttonEl.addEventListener('click',getAddressFromCep);
+
+
